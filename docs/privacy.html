@@ -1,75 +1,179 @@
-# FitTracker Privacy Policy                               
+   <!doctype html>
+  <html lang="en">                                                                                                                    
+  <head>                                                                                                                              
+    <meta charset="utf-8">                                                                                                            
+    <meta name="viewport" content="width=device-width, initial-scale=1">                                                              
+    <title>FitTracker Privacy Policy</title>                                                                                          
+    <meta name="description" content="FitTracker Privacy Policy">                                                                     
+    <style>                                                                                                                           
+      :root {                                                                                                                         
+        color-scheme: light dark;                                                                                                     
+        --bg: #0b0b0d;                                                                                                                
+        --card: #151518;                                                                                                              
+        --text: #f5f5f7;                                                                                                              
+        --muted: #b4b4bc;                                                                                                             
+        --accent: #e1121b;                                                                                                            
+        --line: rgba(255,255,255,.12);                                                                                                
+      }                                                                                                                               
                                                                                                                                       
-  **Effective date:** May 2, 2026                                                                                                     
+      @media (prefers-color-scheme: light) {                                                                                          
+        :root {                                                                                                                       
+          --bg: #f7f3ee;                                                                                                              
+          --card: #ffffff;                                                                                                            
+          --text: #171417;                                                                                                            
+          --muted: #5f5a60;                                                                                                           
+          --line: rgba(0,0,0,.1);                                                                                                     
+        }                                                                                                                             
+      }                                                                                                                               
                                                                                                                                       
-  ## Overview                                                                                                                         
-                                                            
-  FitTracker is designed as a local-first workout tracking app. Your workout data is stored on your device and is not sold, rented, or
-   used for third-party advertising or tracking.            
+      * {                                                                                                                             
+        box-sizing: border-box;                                                                                                       
+      }                                                                                                                               
                                                                                                                                       
-  ## Data We Store on Your Device                                                                                                     
-   
-  FitTracker may store the following data locally on your device:                                                                     
-                                                            
-  - Exercise names, categories, and icons                                                                                             
-  - Workout weights, sets, repetitions, notes, and dates    
-  - Workout templates, goals, and app preferences                                                                                     
-  - Profile details and profile photo if you choose to add them                                                                       
+      body {                                                                                                                          
+        margin: 0;                                                                                                                    
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;                                        
+        background: radial-gradient(circle at top right, rgba(225,18,27,.16), transparent 32rem), var(--bg);                          
+        color: var(--text);                                                                                                           
+        line-height: 1.62;                                                                                                            
+      }                                                                                                                               
                                                                                                                                       
-  ## Apple Health / HealthKit                                                                                                         
+      main {                                                                                                                          
+        width: min(860px, calc(100% - 32px));                                                                                         
+        margin: 0 auto;                                                                                                               
+        padding: 56px 0;                                    
+      }                                                                                                                               
+                                                            
+      article {
+        background: color-mix(in srgb, var(--card) 92%, transparent);
+        border: 1px solid var(--line);                                                                                                
+        border-radius: 24px;                                                                                                          
+        padding: clamp(24px, 4vw, 48px);                                                                                              
+        box-shadow: 0 24px 80px rgba(0,0,0,.22);                                                                                      
+      }                                                                                                                               
                                                                                                                                       
-  If you choose to connect Apple Health, FitTracker may request permission to read body weight, heart rate, and active calorie data   
-  from Apple Health.                                        
+      h1 {                                                                                                                            
+        margin: 0 0 8px;                                                                                                              
+        font-size: clamp(2.25rem, 6vw, 4.5rem);                                                                                       
+        line-height: .95;                                                                                                             
+        letter-spacing: -0.04em;                                                                                                      
+      }                                                                                                                               
                                                                                                                                       
-  FitTracker may also save body weight data to Apple Health when you choose to sync it.                                               
-   
-  HealthKit data is used only to support your workout tracking experience. It is not used for advertising, sold to third parties, or  
-  sent to our servers.                                      
+      h2 {                                                                                                                            
+        margin-top: 34px;                                                                                                             
+        margin-bottom: 8px;                                                                                                           
+        font-size: 1.25rem;                                                                                                           
+        line-height: 1.25;                                                                                                            
+        color: var(--text);                                                                                                           
+      }                                                                                                                               
                                                                                                                                       
-  You can manage or revoke Health permissions at any time in the Apple Health app or iOS Settings.                                    
-   
-  ## Camera and Photo Library                                                                                                         
-                                                            
-  If you choose to add a profile photo, FitTracker may ask for camera or photo library access.                                        
-                                                            
-  Profile photos are used only inside the app and remain on your device.                                                              
-                                                            
-  ## Notifications                                                                                                                    
-                                                            
-  FitTracker can send local notifications with your permission, including:                                                            
-                                                            
-  - Workout reminders                                                                                                                 
-  - Personal record celebrations                            
-  - Rest timer alerts                                                                                                                 
+      p {                                                                                                                             
+        margin: 0 0 14px;                                                                                                             
+        color: var(--muted);                                                                                                          
+      }                                                                                                                               
                                                                                                                                       
-  You can turn notifications off at any time in the app settings or iOS Settings.                                                     
+      ul {                                                                                                                            
+        margin: 8px 0 16px;                                                                                                           
+        padding-left: 22px;                                                                                                           
+        color: var(--muted);                                                                                                          
+      }                                                                                                                               
                                                                                                                                       
-  ## Subscriptions and Purchases                                                                                                      
-                                                            
-  FitTracker Premium subscriptions are processed by Apple through the App Store.                                                      
-                                                            
-  FitTracker does not receive or store your full payment information. Subscription status is checked using Apple StoreKit.            
-                                                            
-  ## Data Security                                                                                                                    
-                                                            
-  Workout data is stored locally using Core Data and protected by iOS device security features.                                       
-                                                            
-  FitTracker does not require an account and does not operate a user data server for workout history.                                 
-                                                            
-  ## Children’s Privacy                                                                                                               
-                                                            
-  FitTracker does not knowingly collect personal data from children under 13.                                                         
-                                                            
-  If you believe a child has provided personal data, please contact us.                                                               
-                                                            
-  ## Changes to This Policy                                                                                                           
-                                                            
-  We may update this Privacy Policy from time to time. Important changes will be reflected in the app or published with the updated   
-  policy.                                                   
+      li {                                                                                                                            
+        margin: 6px 0;                                                                                                                
+      }                                                                                                                               
                                                                                                                                       
-  ## Contact                                                
-
-  If you have questions about this Privacy Policy, contact us:
-
-  Email: support@fittracker.app                                                                                                       
-  Website: www.fittracker.app
+      .meta {                                                                                                                         
+        color: var(--accent);                                                                                                         
+        font-weight: 700;                                                                                                             
+        margin-bottom: 28px;                                                                                                          
+      }                                                                                                                               
+                                                                                                                                      
+      a {                                                                                                                             
+        color: var(--accent);                                                                                                         
+        font-weight: 700;                                                                                                             
+        text-decoration: none;                                                                                                        
+      }                                                                                                                               
+                                                                                                                                      
+      a:hover {                                                                                                                       
+        text-decoration: underline;                                                                                                   
+      }                                                                                                                               
+                                                                                                                                      
+      footer {                                                                                                                        
+        margin-top: 32px;                                                                                                             
+        padding-top: 20px;                                                                                                            
+        border-top: 1px solid var(--line);                                                                                            
+        color: var(--muted);                                                                                                          
+        font-size: .95rem;                                                                                                            
+      }                                                                                                                               
+    </style>                                                                                                                          
+  </head>                                                                                                                             
+  <body>                                                                                                                              
+    <main>                                                                                                                            
+      <article>                                                                                                                       
+        <h1>FitTracker Privacy Policy</h1>                                                                                            
+        <p class="meta">Effective date: May 2, 2026</p>                                                                               
+                                                                                                                                      
+        <h2>Overview</h2>                                                                                                             
+        <p>FitTracker is designed as a local-first workout tracking app. Your workout data is stored on your device and is not sold,  
+  rented, or used for third-party advertising or tracking.</p>                                                                        
+                                                            
+        <h2>Data We Store on Your Device</h2>                                                                                         
+        <p>FitTracker may store the following data locally on your device:</p>
+        <ul>                                                                                                                          
+          <li>Exercise names, categories, and icons</li>                                                                              
+          <li>Workout weights, sets, repetitions, notes, and dates</li>                                                               
+          <li>Workout templates, goals, and app preferences</li>                                                                      
+          <li>Profile details and profile photo if you choose to add them</li>                                                        
+        </ul>                                                                                                                         
+                                                                                                                                      
+        <h2>Apple Health / HealthKit</h2>                                                                                             
+        <p>If you choose to connect Apple Health, FitTracker may request permission to read body weight, heart rate, and active       
+  calorie data from Apple Health.</p>                                                                                                 
+        <p>FitTracker may also save body weight data to Apple Health when you choose to sync it.</p>
+        <p>HealthKit data is used only to support your workout tracking experience. It is not used for advertising, sold to third     
+  parties, or sent to our servers.</p>                                                                                                
+        <p>You can manage or revoke Health permissions at any time in the Apple Health app or iOS Settings.</p>                       
+                                                                                                                                      
+        <h2>Camera and Photo Library</h2>                                                                                             
+        <p>If you choose to add a profile photo, FitTracker may ask for camera or photo library access.</p>                           
+        <p>Profile photos are used only inside the app and remain on your device.</p>                                                 
+                                                                                                                                      
+        <h2>Notifications</h2>                                                                                                        
+        <p>FitTracker can send local notifications with your permission, including:</p>                                               
+        <ul>                                                                                                                          
+          <li>Workout reminders</li>                                                                                                  
+          <li>Personal record celebrations</li>                                                                                       
+          <li>Rest timer alerts</li>                                                                                                  
+        </ul>                                                                                                                         
+        <p>You can turn notifications off at any time in the app settings or iOS Settings.</p>                                        
+                                                                                                                                      
+        <h2>Subscriptions and Purchases</h2>                                                                                          
+        <p>FitTracker Premium subscriptions are processed by Apple through the App Store.</p>                                         
+        <p>FitTracker does not receive or store your full payment information. Subscription status is checked using Apple             
+  StoreKit.</p>                                                                                                                       
+                                                                                                                                      
+        <h2>Data Security</h2>                                                                                                        
+        <p>Workout data is stored locally using Core Data and protected by iOS device security features.</p>
+        <p>FitTracker does not require an account and does not operate a user data server for workout history.</p>                    
+                                                                                                                                      
+        <h2>Children’s Privacy</h2>                                                                                                   
+        <p>FitTracker does not knowingly collect personal data from children under 13.</p>                                            
+        <p>If you believe a child has provided personal data, please contact us.</p>                                                  
+                                                                                                                                      
+        <h2>Changes to This Policy</h2>                                                                                               
+        <p>We may update this Privacy Policy from time to time. Important changes will be reflected in the app or published with the  
+  updated policy.</p>                                                                                                                 
+                                                            
+        <h2>Contact</h2>                                                                                                              
+        <p>If you have questions about this Privacy Policy, contact us:</p>
+        <p>Email: <a href="mailto:support@fittracker.app">support@fittracker.app</a></p>                                              
+        <p>Website: <a href="https://www.fittracker.app">www.fittracker.app</a></p>                                                   
+                                                                                                                                      
+        <footer>                                                                                                                      
+          FitTracker Privacy Policy                                                                                                   
+        </footer>                                                                                                                     
+      </article>                                                                                                                      
+    </main>                                                                                                                           
+  </body>                                                                                                                             
+  </html>                                                                                                                             
+      
